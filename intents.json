@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "name": "greet",
+      "examples": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good evening"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! How are you doing?"
+      ]
+    },
+    {
+      "name": "goodbye",
+      "examples": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "catch you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you soon!",
+        "Take care!"
+      ]
+    },
+    {
+      "name": "thanks",
+      "examples": [
+        "thanks",
+        "thank you",
+        "much appreciated",
+        "thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "name": "ask_weather",
+      "examples": [
+        "what's the weather like",
+        "tell me the weather",
+        "how's the weather today",
+        "weather forecast"
+      ],
+      "responses": [
+        "I can check the weather for you. Which city are you interested in?",
+        "Sure, please provide the city name so I can give you the weather details."
+      ]
+    },
+    {
+      "name": "ask_time",
+      "examples": [
+        "what time is it",
+        "tell me the time",
+        "current time",
+        "can you give me the time"
+      ],
+      "responses": [
+        "The current time is [system_time].",
+        "Right now, it's [system_time]."
+      ]
+    },
+    {
+      "name": "fallback",
+      "examples": [],
+      "responses": [
+        "Sorry, I didn’t get that. Could you rephrase?",
+        "I’m not sure I understand. Can you say it differently?",
+        "Hmm, that’s outside my knowledge. Want to try asking something else?"
+      ]
+    }
+  ]
+}
